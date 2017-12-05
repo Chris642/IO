@@ -9,6 +9,7 @@ Zadania z laboratoriów z przedmiotu Inżynieria Oprogramowania.
   - ASCII logo
   - WIP
   - Bezsensowne README
+  - Great license!
 
 
 License
