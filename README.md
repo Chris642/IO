@@ -1,6 +1,6 @@
 # IO
 
-Zadania z laboratoriów przedmiotu Inżynieria Oprogramowania.
+Zadania z laboratoriów z przedmiotu Inżynieria Oprogramowania.
 
 
 # Features!
