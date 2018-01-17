@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="LAB4.cs" />
+    <Compile Include="TAPclientserver.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TAP12-15.cs" />
+    <Compile Include="TAP12-14.cs" />
     <Compile Include="Zad1.cs" />
     <Compile Include="zad10.cs" />
     <Compile Include="zad11.cs" />

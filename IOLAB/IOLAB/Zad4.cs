@@ -16,6 +16,7 @@ namespace IOLAB
         public void start()
         {
             ThreadPool.QueueUserWorkItem(klient);
+            ThreadPool.QueueUserWorkItem(klient);
             ThreadPool.QueueUserWorkItem(serverclienthandlerino);
 
             Console.WriteLine("main");
@@ -32,7 +33,7 @@ namespace IOLAB
             NetworkStream stream = client.GetStream();
             client.GetStream().Write(message, 0, message.Length);
             stream.Read(echo, 0, echo.Length);
-            Console.WriteLine("Tu klient");
+            writeConsoleMessage("Tu klient", ConsoleColor.Green);
             writeConsoleMessage("Wysyłam: " + wiad, ConsoleColor.Green);
 
         }
@@ -45,7 +46,7 @@ namespace IOLAB
             client.GetStream().Read(buffer, 0, 1024);
             client.GetStream().Write(buffer, 0, buffer.Length);
             client.Close();
-            Console.WriteLine("Tu server");
+            writeConsoleMessage("Tu server", ConsoleColor.Red);
             writeConsoleMessage("Odebralem: " + new ASCIIEncoding().GetString(buffer), ConsoleColor.Red);
 
 

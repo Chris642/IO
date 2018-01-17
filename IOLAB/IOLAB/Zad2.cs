@@ -66,4 +66,4 @@ namespace IOLAB
     }
 }
 // NOTATKI / WNIOSKI
-// Server jest w stanie obsługiwać tylko jednego klienta w danym momencie, co oznacza, że reszta albo musi czekac albo nigdy nie zostanie obsłużona.S
+// Server jest w stanie obsługiwać tylko jednego klienta w danym momencie, co oznacza, że reszta albo musi czekac albo nigdy nie zostanie obsłużona.

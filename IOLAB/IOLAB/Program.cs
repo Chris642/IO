@@ -28,7 +28,13 @@ namespace IOLAB
 
             Console.WriteLine("IO lab zadania.");
             Console.WriteLine("Kod znajduje się w osobnych klasach, które można znależć w drzewie projektu.");
-            Console.WriteLine("Wybierz numer od 1-15 aby uruchomić odpowiadające zadanie. Wpisz '44' aby zobaczyć ostatnie laboratoria.");
+            Console.WriteLine("Wybierz numer od 1-15 aby uruchomić odpowiadające zadanie.");
+            Console.WriteLine("LAB1 \"Pula wątków\"   => zad 1-5");
+            Console.WriteLine("LAB2       APM       => zad 6-8");
+            Console.WriteLine("LAB3       EAP       => zad 9-11");
+            Console.WriteLine("LAB4       TAP       => zad 12-15");
+
+
             int wyb = Convert.ToInt32(Console.ReadLine());
             switch (wyb)
             {
@@ -75,14 +81,13 @@ namespace IOLAB
                 case 12:
                 case 13:
                 case 14:
-                case 15:
-                    Console.WriteLine("Zad 12-15 TAP");
+                    Console.WriteLine("Zad 12-14 TAP");
                     ZadaniaTAP TAP = new ZadaniaTAP();
                     TAP.start();
                     break;
-                case 44:
+                case 15:
                     Console.WriteLine("Zad z LAB4");
-                    LAB4 lab4 = new LAB4();
+                    TAPclientserver lab4 = new TAPclientserver();
                     lab4.start();
                     break;
                 default:

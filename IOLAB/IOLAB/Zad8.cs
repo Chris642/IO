@@ -11,38 +11,38 @@ namespace IOLAB
 {
     class Zad8
     {
-        delegate Int64 DelegateType(Int64 arguments);
+        delegate Int64 DelegateType(Int64 argumenty);
         static DelegateType delegateName;
-        static Int64 Silniarek(Int64 arguments)
+        static Int64 Silniarek(Int64 argumenty)
         {
-            if (arguments < 1)
+            if (argumenty < 1)
                 return 1;
             else
-                return arguments * Silniarek(arguments - 1);
+                return argumenty * Silniarek(argumenty - 1);
 
 
         }
-        static Int64 Silniaite(Int64 arguments)
+        static Int64 Silniaite(Int64 argumenty)
         {
 
             Int64 result = 1;
-            for (Int64 i = 1; i <= arguments; i++)
+            for (Int64 i = 1; i <= argumenty; i++)
             {
                 result *= i;
             }
             return result;
         }
 
-        static Int64 Fiborek(Int64 arguments)
+        static Int64 Fiborek(Int64 argumenty)
         {
 
-            if ((arguments == 1) || (arguments == 2))
+            if ((argumenty == 1) || (argumenty == 2))
                 return 1;
             else
-                return Fiborek(arguments - 1) + Fiborek(arguments - 2);
+                return Fiborek(argumenty - 1) + Fiborek(argumenty - 2);
         }
 
-        static Int64 Fiboite(Int64 arguments)
+        static Int64 Fiboite(Int64 argumenty)
         {
 
             Int64 A = 0;
@@ -50,9 +50,9 @@ namespace IOLAB
 
             Int64 wynik = 0;
 
-            if (arguments < 2) return arguments;
+            if (argumenty < 2) return argumenty;
 
-            for (Int64 i = 2; i <= arguments; i++)
+            for (Int64 i = 2; i <= argumenty; i++)
             {
                 wynik = A + B;
                 A = B;
@@ -118,5 +118,3 @@ namespace IOLAB
 
     }
 }
-// NOTATKI / WNIOSKI
-//TO DO

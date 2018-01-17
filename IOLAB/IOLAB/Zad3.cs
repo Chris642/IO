@@ -14,6 +14,7 @@ namespace IOLAB
         public void start()
         {
             ThreadPool.QueueUserWorkItem(klient);
+            ThreadPool.QueueUserWorkItem(klient);
             ThreadPool.QueueUserWorkItem(serverclienthandlerino);
 
             Console.WriteLine("main");
@@ -75,4 +76,4 @@ namespace IOLAB
     }
 }
 // NOTATKI / WNIOSKI
-// Następuje problem z kolejnością i kolorami wypisywanych wiadomości, ponieważ wątki w nie zoorganizowany sposób korzystają ze zmiany koloru tekstu i wypisywania.
+// Następuje problem z kolejnością i kolorami wypisywanych wiadomości, ponieważ wątki w nie zoorganizowany sposób (kilka na raz) korzystają zopcji zmiany koloru tekstu i wypisywania.
