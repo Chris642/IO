@@ -31,7 +31,7 @@ namespace IOLAB
             Console.WriteLine("Wybierz numer od 1-15 aby uruchomić odpowiadające zadanie.");
             Console.WriteLine("LAB1 \"Pula wątków\"   => zad 1-5");
             Console.WriteLine("LAB2       APM       => zad 6-8");
-            Console.WriteLine("LAB3       EAP       => zad 9-11");
+            Console.WriteLine("LAB3       EAP       => zad 9-11 (brak)");
             Console.WriteLine("LAB4       TAP       => zad 12-15");
 
 
