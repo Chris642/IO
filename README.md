@@ -6,7 +6,7 @@ Zadania z laboratoriów z przedmiotu Inżynieria Oprogramowania.
   - Wybierz numer od 1-15 aby uruchomić odpowiadające zadanie.
   - LAB1  "Pula wątków"  => zad 1-5
   - LAB2       APM       => zad 6-8
-  - LAB3       EAP       => zad 9-11
+  - LAB3       EAP       => zad 9-11 (brak)
   - LAB4       TAP       => zad 12-15
 
 
